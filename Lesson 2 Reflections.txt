@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	Git creates its infrastructure layout for keeping track of file versions.  It does not create any "commits."
 	You need to do it in order to have any kind of version tracking enabled, obviously.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+	The staging area makes it possible to select specific items to be defined as 'currently being worked on' without necessarily committing them.  This way if some items do not require changes at this time, they need not be tracked.  This probably conserves disk space for future commits by not creating needless copies of identical files.
