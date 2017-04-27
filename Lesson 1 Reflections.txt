@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	It provided a list of all areas where the old file and the new differed from one another.  As such, spotting something like a random typo became easier.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	With the entire save history of the file at my disposal I could more easily revert to an earlier version of a file if some nasty hiccough caused a newer version to be less effective than a previous one, and I could review the edit history to get some sense of where the project has been and where it is going.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros: Each 'version' can be a logical progression in the code.  
+	Cons: Automatic committing can be an aid if the programmers are very absent-minded about saving their work.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git is designed for projects.  Projects sometimes involve multiple files.  
+	Google docs was not designed for projects of that kind of magnitude, so each document is its own thing.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	By using the log to display the change log and by using diff to see precisely what has changed between versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+	The knowledge that large numbers of backups of previous versions are available to refer to in the event of catastrophic error.
+
+Now that you have your workplace set up, what do you want to try using Git for?
+
+	I want to try using git for programming operations wherein the program is complex enough for it to be desirable to have a complete version history.

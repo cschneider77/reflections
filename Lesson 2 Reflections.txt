@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates its infrastructure layout for keeping track of file versions.  It does not create any "commits."
+	You need to do it in order to have any kind of version tracking enabled, obviously.
