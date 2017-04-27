@@ -23,3 +23,7 @@ What is the result of merging two branches together?  Why do we represent it in 
 
 	The head of the branches is merged together in the most logical manner possible.  Both are compared to the last version prior to branching off in different directions.  Lines added since then are considered added.  Lines deleted since then are considered deleted.  However, if the same line is added in different ways it results in a "merge conflict."
 	We represent it the way we do in order to reflect the version history of the two branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	The pro of git's automatic merging is it merges elements that obviously do not conflict.  The con is that merge conflicts can be iffy to identify and comprehend.  It coughs up a file with all versions of the "conflict" which can be annoying to parse.
+	Manual merging avoids the problem of difficult-to-parse merge commits, but is more time consuming if the automatic merge would have worked fine.
