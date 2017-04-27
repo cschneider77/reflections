@@ -10,3 +10,8 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change? 
 	The use of diff can be helpful, or by only adding one file at a time to make logical changes to them.
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+
+	Special versions.  Alternate language versions.  Versions for which a selector might be added later to the master to swap between them.  Alternate OS versions.  
+	The branches help by keeping code changes in the various kinds separate.  One wouldn't necessarily want a smartphone outlay on the PC version now would we? 
