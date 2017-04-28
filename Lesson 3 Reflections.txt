@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  Working with multiple persons at remote locations it may be necessary to keep everyone updated by pushing changes to working files to
+  the remote repository from time to time.  Also simple things such as working from home and forgetting to bring your USB into work, well
+  if you updated the remote repository then you can access your updates anyway.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Hackers could sabotage the remote.  It would not do to automatically download viruses.  Furthermore it is possible that the remote may not actually have the most up to date version of the files.  Need to verify that before going about downloading it.
