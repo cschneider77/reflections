@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  Working with multiple persons at remote locations it may be necessary to keep everyone updated by pushing changes to working files to
+  the remote repository from time to time.  Also simple things such as working from home and forgetting to bring your USB into work, well
+  if you updated the remote repository then you can access your updates anyway.
