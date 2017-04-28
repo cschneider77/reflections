@@ -6,3 +6,7 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	Hackers could sabotage the remote.  It would not do to automatically download viruses.  Furthermore it is possible that the remote may not actually have the most up to date version of the files.  Need to verify that before going about downloading it.
+
+Describe the differences between forks, clones, and branches.  When should you use one instead of another? 
+
+	A fork exists only on github and is used to create a duplicate of a repository on github only.  A clone is a generically created duplicate of a repository on the same local machine or network; or between github and a local machine.  A branch is generally just branching out in the same repository, creating a new line of versions.
